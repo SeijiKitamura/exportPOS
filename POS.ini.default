@@ -1,0 +1,4 @@
+DBUSER=""  #SQL SERVER DB接続ユーザー名
+PASS=""    #SQL SERVER DB接続パスワード
+DBNAME=""  #SQL SERVER DB名
+

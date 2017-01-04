@@ -1,0 +1,7 @@
+/csv/*.csv
+!/csv/.gitkeep
+/csv/primestore/*.csv
+!/csv/primestore/.gitkeep
+/csv/ultradb/*.csv
+!/csv/ultradb/.gitkeep
+/POS.ini
