@@ -4,15 +4,6 @@
 上位側はMicrosoft SQLServerとなっています。
 このプログラムを走らせるPCはRaspberryPiを想定しています。
 
-## 必要なハードウエア
-上位側セグメントとLAN側セグメントが違うためLANポートが2つ搭載されているPC
-が必要です。
-
-```
-有線LANポート 上位側IPアドレス
-無線LAN       LAN側IPアドレス
-```
-
 ## プログラム構成
 CSVデータが作成される流れは以下のとおりです。
 
@@ -193,4 +184,14 @@ Setup =  libtdsodbc.soのフルパス
 
 ### 設定
 [Raspberryセットアップ](https://github.com/SeijiKitamura/raspberry)を参照してください。
+
+## ネットワークについて
+僕の場合、上位側セグメントとLAN側セグメントが違うためLANポートが2つ搭載されているPC
+が必要です。
+
+以下、Raspberryでは以下のように設定しています。
+```
+有線LANポート 上位側IPアドレス
+無線LAN       LAN側IPアドレス
+```
 
