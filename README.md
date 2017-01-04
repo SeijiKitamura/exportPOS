@@ -99,7 +99,7 @@ freebcpを使用して上位側に接続し、必要な情報を抽出します�
 
 ```bash
   cd
-  git clone あとで追加
+  git clone https://github.com/SeijiKitamura/exportPOS.git
 ```
 
 ## ディレクトリ構成
